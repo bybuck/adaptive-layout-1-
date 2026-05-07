@@ -1,5 +1,45 @@
-.header {
-  background-color: #663399;
+.subtitle {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.subtitle--color-black {
+  color: #000000;
+}
+
+.subtitle--color {
   color: #ffffff;
-  padding: 10px 15px;
+
+  @media(min-width: 768px){
+    color: #000000;
+  }
+
+  @media(min-width: 1440px) {
+    color: #000000;
+  }
+}
+
+/*.subtitle--position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media(min-width: 768px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  @media(min-width: 1440px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}*/
+
+.subtitle--size-l {
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
 }

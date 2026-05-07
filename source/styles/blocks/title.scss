@@ -1,1 +1,47 @@
-/* не понятно */
+.title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+}
+
+.title--color-black {
+  color: #000000;
+}
+
+.title--color {
+  color: #000000;
+
+  @media(min-width: 768px) {
+    color: #000000;
+  }
+
+  @media(min-width: 1440px) {
+    color: #000000;
+  }
+}
+
+.title--size-xxl {
+  font-size: 27px;
+  line-height: 36px;
+  letter-spacing: 0;
+  margin: 0;
+
+  @media(min-width: 768px) {
+
+  }
+}
+
+.title--size-xl {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.title--size-s {
+  font-size: 30px;
+  line-height: 37px;
+}
+
+
+.title--position {
+ text-align: center;
+}

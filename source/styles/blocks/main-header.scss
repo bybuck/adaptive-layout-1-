@@ -1,1 +1,39 @@
-/* не понятно */
+.main-header {
+  padding: 13px 20px;
+  
+  @media (min-width: 768px){
+    padding-top: 25px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 55px;
+  }
+}
+
+.main-header__logo-img {
+  width: 101px;
+  height: 18px;
+  padding-left: 56px;
+
+  @media(min-width: 768px) {
+    display: none;
+  }
+
+  @media(min-width: 1440px) {
+    display: none;
+  }
+}
+
+.main-header__logo-menu-img {
+  width: 24px;
+  height: 24px;
+  padding-left: 58px;                               //размер
+
+  @media(min-width: 768px) {
+    display: none;
+  }
+
+  @media(min-width: 1440px) {
+    display: none;
+  }
+}

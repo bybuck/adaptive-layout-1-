@@ -1,5 +1,72 @@
-.header {
-  background-color: #663399;
-  color: #ffffff;
-  padding: 10px 15px;
+.content-header {
+  /*background-image: linear-gradient(rgba(104, 183, 56, 0.85), rgba(104, 183, 56, 0.85)), url('C:/Users/Tarya/Desktop/new layout/adaptive layout(№1)/raw/images/background-header.png');
+  background-repeat: no-repeat;
+  background-position-x: center;*/
+  
+  @media(min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  @media(min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    background-image: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+  }
+}
+
+.content-header__slogan {
+  
+}
+
+/*.content-header__slogan {
+  padding-top: 27px;
+  padding-left: 35px;
+
+  @media (min-width: 768px) {
+    padding-top: 65px;
+    padding-left: 90px;
+    background-image: none;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 110px;
+    padding-left: 80px;
+    background-image: none;
+  }
+}*/
+
+.content-header__title {
+  padding-left: 35px;
+  padding-right: 35px;
+  overflow-wrap: break-word;
+  max-width: 100%; 
+  padding-top: 27px;
+
+
+
+  @media(min-width: 768px) {
+    padding-bottom: 40px;
+  }
+
+  @media(min-width: 1440px) {
+    padding-bottom: 40px;
+  }
+}
+
+.content-header__subtitile {
+  @media(min-width: 768px) {
+    padding-bottom: 50px;
+  }
+
+  @media(min-width: 1440px) {
+    padding-bottom: 52px;
+  }
 }

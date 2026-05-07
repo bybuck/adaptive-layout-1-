@@ -1,11 +1,9 @@
 @font-face {
   font-family: "Lato", "Arial", sans-serif;
-  font-weight: 400;
-  src: url("./fonts/Lato-Regular.woff"), ("./fonts/lato/Lato-Regular.woff2");
+  src: url('./lato/Lato-Regular.woff"');
 }
 
 @font-face {
   font-family: "Oswald", "Arial", sans-serif;
-  font-weight: 700;
-  src: url("./fonts/oswaldregular.woff"), ("./fonts/oswald/oswaldregular.woff2");
+  src: url('./oswald/oswaldregular.woff');
 }

@@ -3,10 +3,45 @@
   font-weight: 400;
   font-size: 20px;
   text-transform: uppercase;
+  list-style: none;
 }
 
-.text--active-white {
-  list-style: none;
+.text--active--color {
+  color: #000000;
   text-decoration: none;
+
+  @media(min-width: 768px) {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  @media(min-width: 1440px) {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+.text--active--color:hover {
+  opacity: 0.7;
+}
+
+.text--active--color:active {
+
+  @media(min-width: 768px) {
+    opacity: 1;
+    border-bottom: 2px solid #68b738;
+  }
+
+  @media(min-width: 1440px) {
+    opacity: 1;
+    border-bottom: 2px solid #ffffff;
+  }
+}
+
+.text--color-white {
   color: #ffffff;
+}
+
+.text--active-black {
+  color: #000000;
 }
