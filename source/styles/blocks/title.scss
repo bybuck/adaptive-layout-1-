@@ -1,6 +1,9 @@
 .title {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
+
+  @media(min-width: 768px) {
+  }
 }
 
 .title--color-black {
@@ -8,7 +11,7 @@
 }
 
 .title--color {
-  color: #000000;
+  color: #ffffff;
 
   @media(min-width: 768px) {
     color: #000000;
@@ -20,27 +23,82 @@
 }
 
 .title--size-xxl {
-  font-size: 27px;
-  line-height: 36px;
+  font-size: 36px;
+  line-height: 40px;
   letter-spacing: 0;
-  margin: 0;
+  margin: 0 auto;
 
   @media(min-width: 768px) {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+  }
 
+  @media(min-width: 1440px) {
+    max-height: 60px;
   }
 }
 
 .title--size-xl {
-  font-size: 36px;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 37px;
   text-transform: uppercase;
+  margin: 0;
+  padding-top: 30px;
+
+  @media(min-width: 768px){
+    padding-top: 77px;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  @media(min-width: 140px) {
+    padding-top: 77px;
+    padding-right: 192px;
+    justify-self: flex-end;
+  }
 }
 
 .title--size-s {
   font-size: 30px;
   line-height: 37px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
+
 .title--position {
-  text-align: center;
+ text-align: center;
+ margin: 0;
+
+  @media(min-width: 768px) {
+  padding-top: 65px;
+  display: flex;
+  max-width: 414px;             ///по-моему тут не так надо, уже не помню
+  max-height: 120px;
+  text-align: start;
+ }
+
+  @media(min-width: 1440px){
+    padding-top: 110px;
+  }
+}
+
+.title--padding {
+  padding-top: 25px;
+
+  @media(min-width: 768px){
+    padding-top: 45px;
+  }
+
+  @media(min-width: 1440px) {
+    padding-top: 69px;
+  }
+}
+
+.title--size-xs {
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+  padding-bottom: 7px;
 }

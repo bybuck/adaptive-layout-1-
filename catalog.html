@@ -7,20 +7,26 @@
   </head>
   <body class="page__body">
     <div class="container">
-      <div class="container__content">
-        <header class="main-header">
-          <a class="main-header__logo">
-            <img class="main-header__logo-img" src="./raw/images/logo-header.png"  width="202" height="59">
-          </a>
+      <div class="container">
+        <div class="container__content">
+          <header class="main-header">
+            <a class="main-header__logo">
+              <picture>
+                <source type="image/svg+xml" media="(min-width: 1440px)" srcset="./source/images/logo-header.svg" width="202" height="59" alt="Логотип Cat Energy">
+                <source type="image/svg+xml" media="(min-width: 768px)" srcset="./source/images/logo-header.svg" width="174" height="50" alt="Логотип Cat Energy">
+                <img src="./source/images/logo-header-mobile-1.svg" srcset="./source/images/logo-header-mobile-1.svg" width="33" height="38" alt="Логотип Cat Energy">
+              </picture>
+              <img class="main-header__logo-img" src="./source/images/logo-header-mobile-2.svg" alt="Логотип Cat Energy">
+              <a><img class="main-header__logo-menu-img" src="./source/images/burger-menu.svg" alt="Логотип Cat Energy"></a>
+            </a>
           <nav class="main-nav">
             <ul class="main-nav__list site-list">
-              <li><a href="#" class="site-list__text text text--active-white">Главная</a></li>
-              <li><a href="#" class="site-list__text text text--active-white">Каталог продукции</a></li>
-              <li><a href="#" class="site-list__text text text--active-white">Подбор программы</a></li>
+              <li class="site-list__text text"><a href="#" class="text--active--color">Главная</a></li>
+              <li class="site-list__text text"><a href="#" class="text--active--color">Каталог продукции</a></li>
+              <li class="site-list__text text"><a href="#" class="text--active--color">Подбор программы</a></li>
             </ul>
           </nav>
         </header>
-      </div>
       <main class="main-container">
         <h2 class="main-conteiner__title title title--color-black title--size-xxl">Каталог продукции</h2>
           <div class="card">

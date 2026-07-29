@@ -1,12 +1,22 @@
 .main-header {
   padding: 13px 20px;
-
+  
   @media (min-width: 768px){
+    margin: 0;
     padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 34px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
   }
 
   @media (min-width: 1440px) {
     padding-top: 55px;
+    padding-left: 110px;
+    padding-right: 110px;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -14,6 +24,7 @@
   width: 101px;
   height: 18px;
   padding-left: 56px;
+  padding-bottom: 5px;
 
   @media(min-width: 768px) {
     display: none;
@@ -27,7 +38,7 @@
 .main-header__logo-menu-img {
   width: 24px;
   height: 24px;
-  padding-left: 58px;                               //размер
+  padding-left: 56px;                               //размер
 
   @media(min-width: 768px) {
     display: none;

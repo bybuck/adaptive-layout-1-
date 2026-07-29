@@ -1,5 +1,23 @@
-.header {
-  background-color: #663399;
-  color: #ffffff;
-  padding: 10px 15px;
+.catalog {
+  padding-top: 23px;
+  padding-bottom: 23px;
+
+  @media(min-width: 768px){
+    padding-top: 48px;
+    padding-bottom: 53px;
+  }
+
+  @media(min-width: 1440px) {
+    padding-top: 23px;
+    padding-bottom: 55px;
+    padding-left: 55px;
+  }
+}
+
+.catalog__img {
+  padding-left: 15px;
+
+  @media(min-width: 768px) {
+    padding-left: 25px;
+  }
 }

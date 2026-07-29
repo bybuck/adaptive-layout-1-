@@ -1,5 +1,14 @@
-.header {
-  background-color: #663399;
-  color: #ffffff;
-  padding: 10px 15px;
+.map iframe {
+  width: 320px;
+  height: 362px;
+
+    @media (min-width: 768px) {
+      width: 768px;
+      height: 400px;
+    }
+
+    @media (min-width: 1400px) {
+      width: 1400px;
+      height: 400px;
+    }
 }
