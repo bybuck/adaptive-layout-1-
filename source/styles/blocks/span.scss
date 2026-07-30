@@ -1,0 +1,21 @@
+.span--size-m {
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.span--card--color-white {
+  @media (min-width: 768px) {
+    color: #444444;
+    text-align: center;
+    padding-left: 77px;
+    padding-right: 77px;
+  }
+}
+
+.span--additionally {
+  @media (min-width: 768px) {
+    padding-right: 49px;
+  }
+}

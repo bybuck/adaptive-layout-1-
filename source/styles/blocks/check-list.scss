@@ -3,80 +3,80 @@
   flex-direction: row;
   padding-bottom: 22px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 0;
     display: grid;
     grid-template-rows: 1fr 1fr;
     min-height: 280px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     margin: 0;
   }
 }
 
 
 .check-list__item:last-child {
-  @media(min-width: 768px){
-  padding-bottom: 0;
+  @media (min-width: 768px) {
+    padding-bottom: 0;
   }
 }
 
 .check-list__item:nth-child(-n+2) {
-  @media(min-width: 768px) {
-  margin-bottom: 80px;
+  @media (min-width: 768px) {
+    margin-bottom: 80px;
   }
 
-  @media(min-width: 1440px){
+  @media (min-width: 1440px) {
     margin: 0;
   }
 }
 
 .check-list__item:nth-child(1) {
-  @media(min-width: 768px) {
-  background-image: url("../images/1-background.svg");
-  background-repeat: no-repeat;
-  background-position: 118px;
-  max-width: 230px;
+  @media (min-width: 768px) {
+    background-image: url("../images/1-background.svg");
+    background-repeat: no-repeat;
+    background-position: 118px;
+    max-width: 230px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     background-position: 100px;
   }
 }
 
 .check-list__item:nth-child(2) {
-  @media(min-width: 768px) {
-  background-image: url("../images/2-background.svg");
-  background-repeat: no-repeat;
-  background-position: 108px;
-  max-width: 246px;
+  @media (min-width: 768px) {
+    background-image: url("../images/2-background.svg");
+    background-repeat: no-repeat;
+    background-position: 108px;
+    max-width: 246px;
 
-  @media(min-width: 1440px) {
-    background-position: 100px;
-  }
+    @media (min-width: 1440px) {
+      background-position: 100px;
+    }
   }
 }
 
 .check-list__item:nth-child(3) {
-  @media(min-width: 768px) {
-  background-image: url("../images/3-background.svg");
-  background-repeat: no-repeat;
-  background-position: 110px;
-  max-width: 247px;
+  @media (min-width: 768px) {
+    background-image: url("../images/3-background.svg");
+    background-repeat: no-repeat;
+    background-position: 110px;
+    max-width: 247px;
 
-  @media(min-width: 1440px) {
-    background-position: 100px;
-  }
+    @media (min-width: 1440px) {
+      background-position: 100px;
+    }
   }
 }
 
 .check-list__item:nth-child(4) {
-  @media(min-width: 768px) {
-  background-image: url("../images/4-background.svg");
-  background-repeat: no-repeat;
-  background-position: 110px;
-  max-width: 249px;
+  @media (min-width: 768px) {
+    background-image: url("../images/4-background.svg");
+    background-repeat: no-repeat;
+    background-position: 110px;
+    max-width: 249px;
   }
 
   @media (min-width: 1440px) {
@@ -92,14 +92,13 @@
   justify-content: center;
   align-items: center;
 
-  @media(min-width: 768px){
-    justify-self: start;
-    align-self: flex-start;
+  @media (min-width: 768px) {
+    place-self: flex-start start;
     min-width: 80px;
     min-height: 80px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     margin-top: 40px;
   }
 }
@@ -107,14 +106,14 @@
 .check-list {
   padding-bottom: 49px;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 2fr 2fr;
     border-bottom: 1px solid #e6e6e6;
     padding-top: 47px;                        ///линия должна заходить на паддинги...
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     display: flex;
     flex-direction: row;
     gap: 95px;

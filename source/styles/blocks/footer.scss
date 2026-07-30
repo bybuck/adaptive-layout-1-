@@ -6,9 +6,9 @@
   display: flex;
   flex-direction: row;
   padding: 26px 20px;
-  background-color: white;
+  background-color: #ffffff;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 60px 70px;
   }
 }
@@ -19,7 +19,7 @@
   align-items: center;
   justify-content: center;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     flex-direction: row;
     justify-content: space-between;
     padding: 55px 30px;
@@ -35,7 +35,7 @@
   padding-top: 20px;
   padding-bottom: 22px;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     padding: 0;
   }
 }
@@ -45,13 +45,13 @@
 }
 
 .footer__social-items::after {
-  content: '';
+  content: "";
   position: absolute;
   border: 1px solid #d9d9d9;
   transform: translate(-25%);
   min-width: 238px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 }
@@ -60,7 +60,7 @@
   padding-top: 22px;
   padding-bottom: 40px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 0;
   }
 }
@@ -70,14 +70,70 @@
   gap: 25px;
   padding: 20px 0;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     padding: 0;
   }
 }
 
 .footer__lead {
-
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     text-align: end;
+  }
+}
+
+.footer__catalog {
+  @media (min-width: 768px) {
+    padding-left: 70px;
+    padding-right: 68px;
+  }
+}
+
+.footer__catalog--stocks {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footer__catalog--stocks__title {
+  @media (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    white-space: nowrap;
+    margin-left: -70px;
+    margin-right: -68px;
+  }
+}
+
+.footer__catalog--stocks__title::before,
+.footer__catalog--stocks__title::after {
+  @media (min-width: 768px) {
+    content: "";
+    height: 2px;
+    background-color: #68b738;
+  }
+}
+
+.footer__catalog--stocks__title::before {
+  @media (min-width: 768px) {
+    width: 30px;
+  }
+}
+
+
+.footer__catalog--stocks__title::after {
+  @media (min-width: 768px) {
+    flex: 1;
+  }
+}
+
+.footer__content {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 66px;
   }
 }

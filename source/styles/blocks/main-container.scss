@@ -1,32 +1,31 @@
 .main-container {
   padding: 0 20px;
 
-@media(min-width: 768px) {
-  padding: 0 30px;
+  @media (min-width: 768px) {
+    padding: 0 30px;
 
-  @media(min-width: 1440px){
-    padding: 0 110px;
-    
+    @media (min-width: 1440px) {
+      padding: 0 110px;
+    }
   }
-}
 }
 
 .main-container__title {
   padding-top: 20px;
   padding-bottom: 40px;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     padding-top: 45px;
     padding-bottom: 72px;
   }
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding-top: 71px;
   }
 }
 
 .main-container__card {
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     display: flex;
     flex-direction: row;
     gap: 80px;

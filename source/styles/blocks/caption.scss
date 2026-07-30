@@ -1,0 +1,23 @@
+.caption {
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}
+
+.caption--size-l {
+  @media (min-width: 768px) {
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 24px;
+  }
+}
+
+.caption--card-white {
+  @media (min-width: 768px) {
+    padding-top: 50px;
+    padding-bottom: 23px;
+    text-align: center;
+    margin: 0 95px;
+  }
+}

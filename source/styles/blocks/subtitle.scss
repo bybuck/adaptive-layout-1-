@@ -4,10 +4,9 @@
   margin: 0;
   padding-bottom: 20px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding: 0;
   }
-
 }
 
 .subtitle--color-black {
@@ -17,11 +16,11 @@
 .subtitle--color {
   color: #ffffff;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     color: #000000;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     color: #000000;
   }
 }
@@ -31,7 +30,7 @@
   line-height: 14px;
   text-transform: uppercase;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     font-size: 20px;
     font-weight: 400;
     line-height: 20px;
@@ -44,10 +43,18 @@
   padding-top: 25px;
   padding-bottom: 50px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: flex;
     justify-content: start;
     padding-top: 40px;
     padding-bottom: 21px;
+  }
+}
+
+.subtitle--size-s {
+  @media (min-width: 768px) {
+    font-size: 24px;
+    line-height: 32px;
+    padding-bottom: 24px;
   }
 }

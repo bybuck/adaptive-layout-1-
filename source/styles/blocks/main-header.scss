@@ -1,12 +1,9 @@
 .main-header {
   padding: 13px 20px;
-  
-  @media (min-width: 768px){
+
+  @media (min-width: 768px) {
     margin: 0;
-    padding-top: 25px;
-    padding-left: 30px;
-    padding-right: 34px;
-    padding-bottom: 0;
+    padding: 25px 33px 0 30px;
     display: flex;
     flex-direction: row;
   }
@@ -26,11 +23,11 @@
   padding-left: 56px;
   padding-bottom: 5px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     display: none;
   }
 }
@@ -40,11 +37,11 @@
   height: 24px;
   padding-left: 56px;                               //размер
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: none;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     display: none;
   }
 }

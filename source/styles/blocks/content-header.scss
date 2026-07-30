@@ -1,17 +1,17 @@
 .content-header {
-  background-image: linear-gradient(#68b738d9), url("../images/background-header-mobile.png");
+  background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../images/background-header-mobile.png");
   background-size: 320px 302px;
   background-repeat: no-repeat;
 
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     background-image: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
@@ -23,69 +23,59 @@
   padding-left: 35px;
   padding-right: 35px;
   overflow-wrap: break-word;
-  max-width: 100%; 
+  max-width: 100%;
   padding-top: 27px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding-bottom: 40px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     padding-bottom: 40px;
   }
 }
 
 .content-header__subtitile {
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding-bottom: 50px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     padding-bottom: 52px;
   }
 }
 
-.content-header__title {
-
-  @media(min-width: 768px) {
-    padding: 0;
-    margin: 0 auto;
-  }
-}
-
 .content-header__slogan {
-
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     padding-left: 120px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     padding-left: 190px;
     max-height: 180px;
   }
 }
 
 .content-header__img {
-
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     grid-column: 1;
     grid-row: 2;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     grid-column: 2;
     grid-row: 1/3;
   }
 }
 
 .content-header__button {
-  @media(min-width: 768px) {
-   grid-column: 1;
-   grid-row: 2;
-   z-index: 2;
+  @media (min-width: 768px) {
+    grid-column: 1;
+    grid-row: 2;
+    z-index: 2;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     grid-column: 1;
     grid-row: 2;
   }

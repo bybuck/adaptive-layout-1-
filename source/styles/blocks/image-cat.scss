@@ -1,7 +1,7 @@
 .image-cat {
   position: relative;
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     grid-row: 1/4;
     grid-column: 2;
   }
@@ -11,22 +11,18 @@
   position: absolute;
 }
 
-.image-cat__after {
-  
-}
-
 .image-cat__button {
   background-color: #666666;
   border-radius: 2px;
-  padding: 2px 2px;
+  padding: 2px;
   height: 100%;
   border: none;
   position: absolute;
   left: 50%;
 }
 
-.image-cat__button:before {
-  content: '';
+.image-cat__button::before {
+  content: "";
   background-color: #ffffff;
   border-radius: 50%;
   width: 40px;
@@ -36,8 +32,8 @@
   transform: translate(-50%, -50%);
 }
 
-.image-cat__button:after {
-  content: '';
+.image-cat__button::after {
+  content: "";
   background-color: #666666;
   position: absolute;
   transform: translate(-50%, -50%);

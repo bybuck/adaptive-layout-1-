@@ -1,9 +1,6 @@
 .title {
   font-family: "Oswald", "Arial", sans-serif;
   font-weight: 400;
-
-  @media(min-width: 768px) {
-  }
 }
 
 .title--color-black {
@@ -13,11 +10,11 @@
 .title--color {
   color: #ffffff;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     color: #000000;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     color: #000000;
   }
 }
@@ -28,13 +25,13 @@
   letter-spacing: 0;
   margin: 0 auto;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     font-size: 60px;
     font-weight: 400;
     line-height: 60px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     max-height: 60px;
   }
 }
@@ -46,13 +43,13 @@
   margin: 0;
   padding-top: 30px;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     padding-top: 77px;
     font-size: 36px;
     line-height: 36px;
   }
 
-  @media(min-width: 140px) {
+  @media (min-width: 140px) {
     padding-top: 77px;
     padding-right: 192px;
     justify-self: flex-end;
@@ -68,18 +65,18 @@
 
 
 .title--position {
- text-align: center;
- margin: 0;
+  text-align: center;
+  margin: 0;
 
-  @media(min-width: 768px) {
-  padding-top: 65px;
-  display: flex;
-  max-width: 414px;             ///по-моему тут не так надо, уже не помню
-  max-height: 120px;
-  text-align: start;
- }
+  @media (min-width: 768px) {
+    padding-top: 65px;
+    display: flex;
+    max-width: 414px;             ///по-моему тут не так надо, уже не помню
+    max-height: 120px;
+    text-align: start;
+  }
 
-  @media(min-width: 1440px){
+  @media (min-width: 1440px) {
     padding-top: 110px;
   }
 }
@@ -87,11 +84,11 @@
 .title--padding {
   padding-top: 25px;
 
-  @media(min-width: 768px){
+  @media (min-width: 768px) {
     padding-top: 45px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     padding-top: 69px;
   }
 }
@@ -101,4 +98,70 @@
   line-height: 24px;
   margin: 0;
   padding-bottom: 7px;
+}
+
+.title--catalog {
+  @media (min-width: 768px) {
+    padding-top: 65px;
+  }
+}
+
+.title--catalog-bottom {
+  @media (min-width: 768px) {
+    padding: 74px 0 80px 70px;
+    text-transform: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    white-space: nowrap;
+    margin-left: -100px;
+    margin-right: -30px;
+  }
+}
+
+.title--catalog-bottom::before,
+.title--catalog-bottom::after {
+  @media (min-width: 768px) {
+    content: "";
+    height: 2px;
+    background-color: #68b738;
+  }
+}
+
+.title--catalog-bottom::before {
+  @media (min-width: 768px) {
+    width: 30px;
+  }
+}
+
+
+.title--catalog-bottom::after {
+  @media (min-width: 768px) {
+    flex: 1;
+  }
+}
+
+.title--catalog-stocks {
+  @media (min-width: 768px) {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 80px;
+    text-transform: none;
+  }
+}
+
+.title--catalog-stocks::after,
+.title--catalog-stocks::before {
+  @media (min-width: 768px) {
+    content: "";
+    height: 2px;
+    background-color: #68b738;
+  }
+}
+
+.title--catalog-stocks::after {
+  @media (min-width: 768px) {
+    flex: 1;
+  }
 }
