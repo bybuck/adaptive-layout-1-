@@ -1,8 +1,7 @@
 .subtitle {
-  font-family: "Oswald", "Arial", sans-serif;
+  font-family: $primary-font;
   font-weight: 400;
   margin: 0;
-  padding-bottom: 20px;
 
   @media (min-width: 768px) {
     padding: 0;
@@ -10,30 +9,29 @@
 }
 
 .subtitle--color-black {
-  color: #000000;
+  color: $basic-black;
 }
 
 .subtitle--color {
-  color: #ffffff;
+  color: $basic-white;
 
   @media (min-width: 768px) {
-    color: #000000;
+    color: $basic-black;
   }
 
   @media (min-width: 1440px) {
-    color: #000000;
+    color: $basic-black;
   }
 }
 
 .subtitle--size-l {
-  font-size: 14px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 20px;
   text-transform: uppercase;
 
   @media (min-width: 768px) {
     font-size: 20px;
-    font-weight: 400;
-    line-height: 20px;
+    line-height: 26px;
   }
 }
 
@@ -41,7 +39,7 @@
   display: flex;
   justify-content: center;
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 29px;
 
   @media (min-width: 768px) {
     display: flex;
@@ -55,6 +53,34 @@
   @media (min-width: 768px) {
     font-size: 24px;
     line-height: 32px;
-    padding-bottom: 24px;
+  }
+}
+
+.subtitle__transfer {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  @media (min-width: 1440px) {
+    display: block;
+  }
+}
+
+.subtitle__transfer-catalog {
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  @media (min-width: 1440px) {
+    display: inline;
+  }
+}
+
+.subtitle__transfer-2 {
+  @media (min-width: 1440px) {
+    display: inline;
+    padding-left: 63px;
   }
 }

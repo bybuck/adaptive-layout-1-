@@ -2,7 +2,7 @@ import { readFileSync, rmSync } from 'node:fs';
 
 import gulp from 'gulp';
 import plumber from 'gulp-plumber';
-// import htmlmin from 'gulp-htmlmin';
+//import htmlmin from 'gulp-htmlmin';
 import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 import postcss from 'gulp-postcss';
@@ -202,6 +202,7 @@ export function runDev (done) {
       processStyles,
       processScripts,
       createStack,
+      copyStatic,
     ),
     startServer,
   )(done);

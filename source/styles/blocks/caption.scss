@@ -1,10 +1,12 @@
 .caption {
-  @media (min-width: 768px) {
-    margin: 0;
-  }
+  font-family: $primary-font;
+  margin: 0;
 }
 
 .caption--size-l {
+  font-size: 16px;
+  line-height: 20px;
+
   @media (min-width: 768px) {
     padding-bottom: 20px;
     font-size: 20px;
@@ -15,9 +17,29 @@
 
 .caption--card-white {
   @media (min-width: 768px) {
-    padding-top: 50px;
     padding-bottom: 23px;
     text-align: center;
-    margin: 0 95px;
+  }
+}
+
+.caption__transfer {
+  padding-left: 3px;
+
+  @media (min-width: 768px) {
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+}
+
+.caption__transfer-2 {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: inline;
+  }
+
+  @media (min-width: 1440px) {
+    display: inline;
   }
 }

@@ -4,22 +4,45 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-}
 
-.additionally__img {
-  @media (min-width: 768px) {
-    background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("../images/background-image-catalog@1x.png");
-    margin-top: 70px;
-    width: auto;
-    min-height: 200px;
-    background-position: 0 -400px;
-    background-size: cover;
+  @media (min-width: 1440px) {
+    flex-direction: column;
   }
 }
 
-.additionaly__text {
-  @media (min-width: 768px) {             ///текст как через абсолют или как
-    color: #ffffff;
-    margin: 0;
+.additionally__text {
+  @media (min-width: 768px) {
+    background-image: url("/images/background-image-catalog.jpg");
+    margin-top: 70px;
+    min-height: 200px;
+    color: $basic-white;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+  }
+
+  @media (min-width: 1440px) {
+    background-image: url("/images/background-image-catalog-desktop.jpg");
+    min-height: 288px;
+    min-width: 245px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin-left: 81px;
+  }
+}
+
+.additionally__block {
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.additionally__column {
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: column;
   }
 }

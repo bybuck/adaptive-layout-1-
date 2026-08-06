@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: row;
   padding-bottom: 22px;
+  align-items: center;
+  counter-increment: item-counter;
 
   @media (min-width: 768px) {
     padding: 0;
@@ -15,8 +17,21 @@
   }
 }
 
+.check-list__item::before {
+  @media (min-width: 768px) {
+    content: counter(item-counter);
+    position: absolute;
+    font-family: $primary-font;
+    color: $basic-grey;
+    font-size: 280px;
+    z-index: 0;
+    transform: translateX(170px);
+  }
+}
 
 .check-list__item:last-child {
+  padding-bottom: 0;
+
   @media (min-width: 768px) {
     padding-bottom: 0;
   }
@@ -32,58 +47,6 @@
   }
 }
 
-.check-list__item:nth-child(1) {
-  @media (min-width: 768px) {
-    background-image: url("../images/1-background.svg");
-    background-repeat: no-repeat;
-    background-position: 118px;
-    max-width: 230px;
-  }
-
-  @media (min-width: 1440px) {
-    background-position: 100px;
-  }
-}
-
-.check-list__item:nth-child(2) {
-  @media (min-width: 768px) {
-    background-image: url("../images/2-background.svg");
-    background-repeat: no-repeat;
-    background-position: 108px;
-    max-width: 246px;
-
-    @media (min-width: 1440px) {
-      background-position: 100px;
-    }
-  }
-}
-
-.check-list__item:nth-child(3) {
-  @media (min-width: 768px) {
-    background-image: url("../images/3-background.svg");
-    background-repeat: no-repeat;
-    background-position: 110px;
-    max-width: 247px;
-
-    @media (min-width: 1440px) {
-      background-position: 100px;
-    }
-  }
-}
-
-.check-list__item:nth-child(4) {
-  @media (min-width: 768px) {
-    background-image: url("../images/4-background.svg");
-    background-repeat: no-repeat;
-    background-position: 110px;
-    max-width: 249px;
-  }
-
-  @media (min-width: 1440px) {
-    background-position: 80px;
-  }
-}
-
 .check-list__img {
   background-color: #68b738;
   min-width: 60px;
@@ -91,15 +54,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 
   @media (min-width: 768px) {
-    place-self: flex-start start;
+    place-self: flex-start;
     min-width: 80px;
     min-height: 80px;
-  }
-
-  @media (min-width: 1440px) {
-    margin-top: 40px;
   }
 }
 
@@ -110,7 +70,7 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     border-bottom: 1px solid #e6e6e6;
-    padding-top: 47px;                        ///линия должна заходить на паддинги...
+    counter-reset: item-counter;
   }
 
   @media (min-width: 1440px) {
@@ -119,5 +79,6 @@
     gap: 95px;
     padding: 0;
     border-bottom: none;
+    padding-bottom: 69px;
   }
 }

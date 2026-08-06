@@ -1,5 +1,6 @@
 .image-cat {
   position: relative;
+  padding-bottom: 40px;
 
   @media (min-width: 1440px) {
     grid-row: 1/4;
@@ -12,31 +13,26 @@
 }
 
 .image-cat__button {
-  background-color: #666666;
+  background-color: $special-grey-3;
   border-radius: 2px;
   padding: 2px;
-  height: 100%;
+  height: 256px;
   border: none;
   position: absolute;
   left: 50%;
+
+  @media (min-width: 768px) {
+    height: 512px;
+  }
 }
 
 .image-cat__button::before {
   content: "";
-  background-color: #ffffff;
+  background-color: $basic-white;
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  border: 2px solid #666666;
+  border: 2px solid $special-grey-3;
   position: absolute;
   transform: translate(-50%, -50%);
-}
-
-.image-cat__button::after {
-  content: "";
-  background-color: #666666;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 24px;
-  height: 18px;
 }

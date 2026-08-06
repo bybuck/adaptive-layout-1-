@@ -1,4 +1,12 @@
+.span {
+  font-family: $secondary-font;
+  margin: 0;
+}
+
 .span--size-m {
+  font-size: 12px;
+  line-height: 16px;
+
   @media (min-width: 768px) {
     font-size: 16px;
     line-height: 20px;
@@ -7,15 +15,36 @@
 
 .span--card--color-white {
   @media (min-width: 768px) {
-    color: #444444;
+    color: $special-grey-4;
     text-align: center;
-    padding-left: 77px;
-    padding-right: 77px;
   }
 }
 
 .span--additionally {
   @media (min-width: 768px) {
     padding-right: 49px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-right: 112px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+.span--color-gray {
+  color: $special-grey-4;
+}
+
+.span__transfer {
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.span--additionally-desc {
+  @media (min-width: 1440px) {
+    margin-top: 28px;
+    margin-bottom: 24px;
   }
 }

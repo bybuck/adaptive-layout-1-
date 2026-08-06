@@ -1,15 +1,20 @@
-.footer {
-  background-color: #f2f2f2;
-}
-
 .footer__text {
   display: flex;
   flex-direction: row;
   padding: 26px 20px;
-  background-color: #ffffff;
+  background-color: $basic-white;
 
   @media (min-width: 768px) {
     padding: 60px 70px;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1440px) {
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 110px;
+    padding: 60px 80px;
+    justify-content: start;
   }
 }
 
@@ -30,14 +35,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 128px;
-  max-height: 24px;
-  padding-top: 20px;
-  padding-bottom: 22px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 
   @media (min-width: 768px) {
     padding: 0;
   }
+}
+
+.footer__logo:hover path {
+  fill: $special-grey-8;
+}
+
+.footer__logo:active path {
+  opacity: 0.5;
 }
 
 .footer__social-items {
@@ -47,7 +58,7 @@
 .footer__social-items::after {
   content: "";
   position: absolute;
-  border: 1px solid #d9d9d9;
+  border: 1px solid $special-grey-7;
   transform: translate(-25%);
   min-width: 238px;
 
@@ -56,35 +67,36 @@
   }
 }
 
-.footer__logo-academy {
-  padding-top: 22px;
-  padding-bottom: 40px;
+.footer__social-elements {
+  display: flex;
+  gap: 25px;
+  padding: 20px 0;
+  color: $special-grey-3;
 
   @media (min-width: 768px) {
     padding: 0;
   }
 }
 
-.footer__social-elements {
-  display: flex;
-  gap: 25px;
-  padding: 20px 0;
+.footer__elements {
+  fill: $special-grey-3;
+}
 
-  @media (min-width: 768px) {
-    padding: 0;
-  }
+.footer__elements:hover path {
+  fill: $basic-green;
+}
+
+.footer__elements:active path {
+  opacity: 0.5;
 }
 
 .footer__lead {
   @media (min-width: 768px) {
     text-align: end;
   }
-}
 
-.footer__catalog {
-  @media (min-width: 768px) {
-    padding-left: 70px;
-    padding-right: 68px;
+  @media (min-width: 1440px) {
+    text-align: start;
   }
 }
 
@@ -112,7 +124,7 @@
   @media (min-width: 768px) {
     content: "";
     height: 2px;
-    background-color: #68b738;
+    background-color: $basic-green;
   }
 }
 
@@ -135,5 +147,21 @@
     flex-direction: column;
     text-align: center;
     padding-top: 66px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 72px;
+  }
+}
+
+.footer__logo-html {
+  padding: 20px 0 40px;
+}
+
+.footer__color {
+  background-color: $basic-grey;
+
+  @media (min-width: 1440px) {
+    background-color: $basic-white;
   }
 }
