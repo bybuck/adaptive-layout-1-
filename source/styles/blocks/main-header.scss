@@ -54,6 +54,7 @@
 
 .main-header__border {
   border-bottom: 1px solid $special-grey-7;
+  width: 320px;
 
   @media (min-width: 768px) {
     border-bottom: none;

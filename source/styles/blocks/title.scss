@@ -56,23 +56,6 @@
 }
 
 
-.title--position {
-  text-align: center;
-  margin: 0;
-
-  @media (min-width: 768px) {
-    padding-top: 65px;
-    display: flex;
-    max-width: 414px;             ///по-моему тут не так надо, уже не помню
-    max-height: 120px;
-    text-align: start;
-  }
-
-  @media (min-width: 1440px) {
-    padding-top: 110px;
-  }
-}
-
 .title--padding {
   padding-top: 25px;
 
@@ -107,7 +90,7 @@
 
   @media (min-width: 1440px) {
     padding-top: 74px;
-    padding-bottom: 165px;
+    padding-bottom: 83px;
     border-bottom: none;
     margin: 0;
   }

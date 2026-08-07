@@ -24,27 +24,38 @@
   overflow-wrap: break-word;
   max-width: 100%;
   padding-top: 27px;
+  margin: 0;
+  text-align: center;
 
   @media (min-width: 768px) {
-    padding-bottom: 40px;
+    padding-top: 65px;
     padding-left: 0;
     padding-right: 0;
+    text-align: start;
   }
 
   @media (min-width: 1440px) {
-    padding-bottom: 40px;
+    text-align: start;
+    padding-top: 110px;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
 .content-header__subtitile {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 29px;
+
   @media (min-width: 768px) {
-    padding-bottom: 50px;
+    text-align: start;
+    padding-top: 40px;
+    padding-bottom: 21px;
   }
 
   @media (min-width: 1440px) {
-    padding-bottom: 52px;
+    padding-top: 81px;
+    padding-bottom: 21px;
   }
 }
 

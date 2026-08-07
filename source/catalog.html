@@ -10,11 +10,11 @@
     <div class="container">
       <div class="container__body">
         <header class="main-header">
-          <div class="main-header__logo  main-header__border">
+          <div class="main-header__logo">
             <picture>
               <source type="image/svg+xml" media="(min-width: 1440px)" srcset="./images/logo-header.svg" width="202" height="59" alt="Логотип Cat Energy">
               <source type="image/svg+xml" media="(min-width: 768px)" srcset="./images/logo-header.svg" width="174" height="50" alt="Логотип Cat Energy">
-              <img src="./images/logo-header-mobile-1.svg" srcset="./images/logo-header-mobile-1.svg" width="33" height="38" alt="Логотип Cat Energy">
+              <img class="main-header__img" src="./images/logo-header-mobile-1.svg" srcset="./images/logo-header-mobile-1.svg" width="33" height="38" alt="Логотип Cat Energy">
             </picture>
           </div>
           <img class="main-header__logo-img" src="./images/logo-header-mobile-2.svg" alt="Логотип Cat Energy" width="101" height="18">
@@ -28,7 +28,7 @@
           </nav>
         </header>
         <main class="main-container">
-          <div class="main-container__card">
+          <div class="main-container__card-catalog">
           <div class="title title--catalog"><h2 class="title title--color-black title--size-xxl">Каталог продукции</h2></div>
             <div class="card card--catalog">
               <section class="card__container">
@@ -52,7 +52,7 @@
                     <span class="card__span span span--color-gray span--size-m">700 ₽</span>
                   </div>
                 </div>
-                  <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                  <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
               </section>
               <section class="card__container">
                 <picture class="card__image-1000">
@@ -60,7 +60,8 @@
                   <source type="image/png" media="(min-width: 768px)" srcset="./images/cup-orange-1000-tablet.png" width="168" height="206">
                   <img src="./images/cup-orange-1000-mobile.png" srcset="./images/cup-orange-1000-mobile.png" width="84" height="100" alt="Банка Cat Energy">
                 </picture>
-                <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy PRO<span class="caption__transfer">1000 г</span></h2>
+                <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy<span class="caption__transfer-2">PRO<span class="caption__transfer">1000 г</span></span></h2>
+                  <div class="card__block">
                   <div class="card__subtitle">
                     <span class="card__span span span--color-gray span--size-m">Масса</span>
                     <span class="card__span span span--color-gray span--size-m">1000 г</span>
@@ -73,7 +74,8 @@
                     <span class="card__span span span--color-gray span--size-m">Цена</span>
                     <span class="card__span span span--color-gray span--size-m">1000 ₽</span>
                   </div>
-                <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                  </div>
+                <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
               </section>
               <section class="card__container">
                 <picture class="card__image-500">
@@ -81,7 +83,8 @@
                   <source type="image/png" media="(min-width: 768px)" srcset="./images/cup-green-500-tablet.png" width="161" height="172">
                   <img src="./images/cup-green-500-mobile.png" srcset="./images/cup-green-500-mobile.png" width="68" height="86" alt="Банка Cat Energy">
                 </picture>
-                <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy PRO<span class="caption__transfer">500 г</span></h2>
+                <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy<span class="caption__transfer-2">PRO<span class="caption__transfer">500 г</span></span></h2>
+                  <div class="card__block">
                   <div class="card__subtitle">
                     <span class="card__span span span--color-gray span--size-m">Масса</span>
                     <span class="card__span span span--color-gray span--size-m">500 г</span>
@@ -94,7 +97,8 @@
                     <span class="card__span span span--color-gray span--size-m">Цена</span>
                     <span class="card__span span span--color-gray span--size-m">700 ₽</span>
                   </div>
-                <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                  </div>
+                <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
               </section>
               <section class="card__container">
                 <picture class="card__image-1000">
@@ -102,7 +106,8 @@
                   <source type="image/png" media="(min-width: 768px)" srcset="./images/cup-green-1000-tablet.png" width="168" height="206">
                   <img src="./images/cup-green-1000-mobile.png" srcset="./images/cup-green-1000-mobile.png" width="84" height="100" alt="Банка Cat Energy">
                 </picture>
-                <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy PRO<span class="caption__transfer">1000 г</span></h2>
+                <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy<span class="caption__transfer-2">PRO<span class="caption__transfer">1000 г</span></span></h2>
+                  <div class="card__block">
                   <div class="card__subtitle">
                     <span class="card__span span span--color-gray span--size-m">Масса</span>
                     <span class="card__span span span--color-gray span--size-m">1000 г</span>
@@ -115,7 +120,8 @@
                     <span class="card__span span span--color-gray span--size-m">Цена</span>
                     <span class="card__span span span--color-gray span--size-m">1000 ₽</span>
                   </div>
-                <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                  </div>
+                <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
             </section>
             <section class="card__container">
               <picture class="card__image-500">
@@ -123,7 +129,8 @@
                 <source type="image/png" media="(min-width: 768px)" srcset="./images/cup-blue-500-tablet.png" width="161" height="172">
                 <img src="./images/cup-blue-500-mobile.png" srcset="./images/cup-blue-500-mobile.png" width="68" height="86" alt="Банка Cat Energy">
               </picture>
-              <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy Slim<span class="caption__transfer">500 г</span></h2>
+              <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy<span class="caption__transfer-2">Slim<span class="caption__transfer">500 г</span></span></h2>
+                <div class="card__block">
                 <div class="card__subtitle">
                   <span class="card__span span span--color-gray span--size-m">Масса</span>
                   <span class="card__span span span--color-gray span--size-m">500 г</span>
@@ -136,7 +143,8 @@
                   <span class="card__span span span--color-gray span--size-m">Цена</span>
                   <span class="card__span span span--color-gray span--size-m">700 ₽</span>
                 </div>
-              <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                </div>
+              <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
             </section>
             <section class="card__container">
               <picture class="card__image-1000">
@@ -144,7 +152,8 @@
                 <source type="image/png" media="(min-width: 768px)" srcset="./images/cup-blue-1000-tablet.png" width="168" height="206">
                 <img src="./images/cup-blue-1000-mobile.png" srcset="./images/cup-blue-1000-mobile.png" width="84" height="100" alt="Банка Cat Energy">
               </picture>
-              <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy Slim<span class="caption__transfer">1000 г</span></h2>
+              <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy<span class="caption__transfer-2">Slim<span class="caption__transfer">1000 г</span></span></h2>
+                <div class="card__block">
                 <div class="card__subtitle">
                   <span class="card__span span span--color-gray span--size-m">Масса</span>
                   <span class="card__span span span--color-gray span--size-m">1000 г</span>
@@ -157,7 +166,8 @@
                   <span class="card__span span span--color-gray span--size-m">Цена</span>
                   <span class="card__span span span--color-gray span--size-m">1000 ₽</span>
                 </div>
-              <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                </div>
+              <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
             </section>
             <section class="card__container">
               <picture class="card__image-500">
@@ -165,7 +175,8 @@
                 <source type="image/png" media="(min-width: 768px)" srcset="./images/cup-purple-500-tablet.png" width="161" height="172">
                 <img src="./images/cup-purple-500-mobile.png" srcset="./images/cup-purple-500-mobile.png" width="68" height="86" alt="Банка Cat Energy">
               </picture>
-              <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy Slim<span class="caption__transfer">500 г</span></h2>
+              <h2 class="card__caption caption caption--color-black caption--size-l">Cat Energy<span class="caption__transfer-2">Slim<span class="caption__transfer">500 г</span></span></h2>
+                <div class="card__block">
                 <div class="card__subtitle">
                   <span class="card__span span span--color-gray span--size-m">Масса</span>
                   <span class="card__span span span--color-gray span--size-m">500 г</span>
@@ -178,7 +189,8 @@
                   <span class="card__span span span--color-gray span--size-m">Цена</span>
                   <span class="card__span span span--color-gray span--size-m">700 ₽</span>
                 </div>
-              <button class="card__button button button--catalog button--color-green button--size-l button--text" type="button">Заказать</button>
+                </div>
+              <button class="card__button button button--color-green button--size-l" type="button"><div class="button__text text text--size text--color-white">Заказать</div></button>
             </section>
             <section class="card__color-white">
               <picture class="card__icon">
@@ -188,7 +200,7 @@
               </picture>
               <h2 class="card__caption caption caption--card-white caption--size-l">Показать еще<span class="caption__transfer">100500 товаров</span></h2>
               <p class="card__span span span--card--color-white span--size-m">На самом деле вкусов<span class="span__transfer">гораздо больше!</span></p>
-              <button class="card__button button button--color-grey button--size-l" type="button">Показать все</button>
+              <button class="card__button button button--color-grey button--size-l" type="button"><div class="button__text text text--size text--color-grey">Показать все</div></button>
             </section>
           </div>
           <div class="additionally">
@@ -202,7 +214,7 @@
                     <span class="span span--color-gray span--size-m span--additionally">1 упаковка (100 г)</span>
                     <span class="span span--color-gray span--size-m span--additionally-desc">200 ₽</span>
                   </div>
-                  <button class="row__button button button--additionally button--color-green button--size-xl button--text" type="button">Заказать</button>
+                  <button class="row__button button button--color-green button--size-xl button--text" type="button">Заказать</button>
                 </div>
               </div>
               <div class="additionally__row row">
@@ -212,7 +224,7 @@
                     <span class="span span--color-gray span--size-m span--additionally">5 литров</span>
                     <span class="span span--color-gray span--size-m span--additionally-desc">50 ₽</span>
                   </div>
-                  <button class="row-button button button--additionally button--color-green button--size-xl button--text" type="button">Заказать</button>
+                  <button class="row__button button button--color-green button--size-xl button--text" type="button">Заказать</button>
                 </div>
               </div>
               <div class="additionally__row row">
@@ -222,7 +234,7 @@
                     <span class="span span--color-gray span--size-m span--additionally">1 литр</span>
                     <span class="span span--color-gray span--size-m span--additionally-desc">100 ₽</span>
                   </div>
-                  <button class="row-button button button--additionally button--color-green button--size-xl button--text" type="button">Заказать</button>
+                  <button class="row__button button button--color-green button--size-xl button--text" type="button">Заказать</button>
                 </div>
               </div>
               <div class="additionally__row row">
@@ -232,7 +244,7 @@
                     <span class="span span--color-gray span--size-m span--additionally">1 упаковка (30 г)</span>
                     <span class="span span--color-gray span--size-m span--additionally-desc">300 ₽</span>
                   </div>
-                  <button class="row-button button button--additionally button--color-green button--size-xl button--text" type="button">Заказать</button>
+                  <button class="row__button button button--color-green button--size-xl button--text" type="button">Заказать</button>
                 </div>
               </div>
             </div>

@@ -45,7 +45,7 @@
   text-transform: uppercase;
 
   @media (min-width: 768px) {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 100%;
   }
 
@@ -100,4 +100,12 @@
   @media (min-width: 1440px) {
     padding: 56px 83px 0 82px;
   }
+}
+
+.text--color-grey {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 20px;
+  color: $special-grey-4;
+  text-align: center;
 }
