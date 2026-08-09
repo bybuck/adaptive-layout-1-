@@ -11,14 +11,23 @@
 }
 
 .additionally__text {
+  background-image: url("/images/background-image-mobile-catalog.jpg");
+  min-width: 280px;
+  min-height: 290px;
+  margin-top: 35px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
   @media (min-width: 768px) {
     background-image: url("/images/background-image-catalog.jpg");
     margin-top: 70px;
     min-height: 200px;
     color: $basic-white;
-    display: flex;
     justify-content: space-between;
-    background-repeat: no-repeat;
+    flex-direction: row;
   }
 
   @media (min-width: 1440px) {
@@ -26,7 +35,6 @@
     min-height: 288px;
     min-width: 245px;
     margin-top: 0;
-    display: flex;
     flex-direction: column;
     margin-left: 81px;
   }

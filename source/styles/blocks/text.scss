@@ -75,6 +75,7 @@
   font-family: $secondary-font;
   text-transform: none;
   margin: 0;
+  padding: 48px 61px 0px 58px;
 
   @media (min-width: 768px) {
     padding: 71px 125px 69px 0;
@@ -93,6 +94,8 @@
 }
 
 .text__img {
+  padding-top: 59px;
+
   @media (min-width: 768px) {
     padding: 57px 0 61px 77px;
   }

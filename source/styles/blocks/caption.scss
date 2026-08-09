@@ -1,24 +1,32 @@
 .caption {
   font-family: $primary-font;
   margin: 0;
+  font-weight: 400;
 }
 
 .caption--size-l {
   font-size: 16px;
   line-height: 20px;
+  text-transform: uppercase;
 
   @media (min-width: 768px) {
-    padding-bottom: 20px;
     font-size: 20px;
-    text-transform: uppercase;
     line-height: 24px;
   }
 }
 
 .caption--card-white {
+  padding-bottom: 8px;
+  text-transform: uppercase;
+
   @media (min-width: 768px) {
     padding-bottom: 23px;
     text-align: center;
+  }
+
+  @media(min-width: 1440px) {
+    padding: 0px 55px;
+    padding-bottom: 26px;
   }
 }
 
@@ -32,14 +40,13 @@
   }
 }
 
-.caption__transfer-2 {
-  display: block;
+.caption--block {
+  max-width: 76px;
+  max-height: 41px;
 
-  @media (min-width: 768px) {
-    display: inline;
-  }
-
-  @media (min-width: 1440px) {
-    display: inline;
+  @media(min-width: 768px) {
+    min-width: 135px;
+    min-height: 47px;
   }
 }
+
