@@ -53,11 +53,11 @@
   margin: 0;
   padding-bottom: 21px;
 
-  @media(min-width: 768px) {
-    padding: 0px 77px 82px 77px;
+  @media (min-width: 768px) {
+    padding: 0 77px 82px;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     padding-left: 38px;
     padding-right: 38px;
     padding-bottom: 70px;

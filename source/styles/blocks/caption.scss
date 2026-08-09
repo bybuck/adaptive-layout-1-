@@ -24,8 +24,8 @@
     text-align: center;
   }
 
-  @media(min-width: 1440px) {
-    padding: 0px 55px;
+  @media (min-width: 1440px) {
+    padding: 0 55px;
     padding-bottom: 26px;
   }
 }
@@ -44,9 +44,8 @@
   max-width: 76px;
   max-height: 41px;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     min-width: 135px;
     min-height: 47px;
   }
 }
-

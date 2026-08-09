@@ -60,14 +60,14 @@
   }
 }
 
-.subtitle__transfer-index{ 
+.subtitle__transfer-index {
   display: inline;
 
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     display: block;
   }
 
-  @media(min-width: 1440px) {
+  @media (min-width: 1440px) {
     display: inline;
     padding-left: 63px;
   }
