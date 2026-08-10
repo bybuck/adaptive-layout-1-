@@ -1,0 +1,65 @@
+.span {
+  font-family: $secondary-font;
+  margin: 0;
+}
+
+.span--size-m {
+  font-size: 12px;
+  line-height: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.span--card--color-white {
+  @media (min-width: 768px) {
+    color: $special-grey-4;
+    text-align: center;
+  }
+}
+
+.span--additionally {
+  @media (min-width: 768px) {
+    padding-right: 49px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-right: 110px;
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+.span--color-gray {
+  color: $special-grey-4;
+}
+
+.span__transfer {
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.span--additionally-desc {
+  @media (min-width: 1440px) {
+    margin-top: 28px;
+    margin-bottom: 24px;
+  }
+}
+
+.span__position {
+  margin: 0;
+  padding-bottom: 21px;
+
+  @media (min-width: 768px) {
+    padding: 0 77px 82px;
+  }
+
+  @media (min-width: 1440px) {
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 70px;
+  }
+}

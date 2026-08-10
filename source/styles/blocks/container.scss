@@ -1,0 +1,8 @@
+.container__content {
+  @media (min-width: 1440px) {
+    background-image: linear-gradient(rgba(104, 183, 56, 0.85)), url("/images/background-header@1x.png");
+    background-repeat: no-repeat;
+    background-size: 720px 694px;
+    background-position-x: 100%;
+  }
+}

@@ -1,0 +1,25 @@
+.catalog {
+  padding-top: 23px;
+  padding-bottom: 23px;
+
+  @media (min-width: 768px) {
+    padding-top: 48px;
+    padding-bottom: 53px;
+    grid-row: 3;
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 23px;
+    padding-bottom: 55px;
+    padding-left: 55px;
+    grid-row: 5;
+  }
+}
+
+.catalog__img {
+  padding-left: 15px;
+
+  @media (min-width: 768px) {
+    padding-left: 25px;
+  }
+}

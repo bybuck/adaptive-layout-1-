@@ -1,0 +1,129 @@
+.list-content {
+  background-color: $special-grey-6;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  @media (min-width: 768px) {
+    background: linear-gradient($basic-white 70%, $special-grey-6 30%);
+  }
+
+  @media (min-width: 1440px) {
+    padding: 0 110px;
+    background: linear-gradient($basic-white 20%, $special-grey-6 20%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.list-content__row {
+  @media (min-width: 1440px) {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.list-content__caption-1,
+.list-content__caption-2 {
+  display: flex;
+  border: 1px solid $special-grey-2;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.list-content__caption-1 {
+  padding: 15px 42px 17px;
+
+  @media (min-width: 768px) {
+    padding: 15px 57px 17px 56px;
+  }
+}
+
+.list-content__caption-2 {
+  padding: 15px 21px 17px;
+
+  @media (min-width: 768px) {
+    padding: 15px 35px 20px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 15px 35px 20px;
+  }
+}
+
+.list-content__section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-bottom: 34px;
+
+  @media (min-width: 1440px) {
+    padding: 0;
+    gap: 42px;
+  }
+}
+
+.list-content__item {
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.list-content__padding {
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 55px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 0;
+  }
+}
+
+.list-content__grid {
+  @media (min-width: 1440px) {
+    grid-column: 1;
+    grid-row: 2;
+    max-width: 436px;
+  }
+}
+
+.list-content__transfer {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: inline;
+  }
+
+  @media (min-width: 1440px) {
+    display: inline;
+  }
+}
+
+.list-content__text {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: end;
+  }
+}
+
+.list-content__subtitle {
+  padding-bottom: 20px;
+
+  @media (min-width: 768px) {
+    margin-top: -85px;
+    padding-bottom: 117px;
+  }
+
+  @media (min-width: 1440px) {
+    margin: 0;
+    padding: 0;
+    transform: translate(-895px, 500px);
+  }
+}

@@ -1,0 +1,38 @@
+.image-cat {
+  position: relative;
+  padding-bottom: 40px;
+
+  @media (min-width: 1440px) {
+    grid-row: 1/4;
+    grid-column: 2;
+  }
+}
+
+.image-cat__before {
+  position: absolute;
+}
+
+.image-cat__button {
+  background-color: $special-grey-3;
+  border-radius: 2px;
+  padding: 2px;
+  height: 256px;
+  border: none;
+  position: absolute;
+  left: 50%;
+
+  @media (min-width: 768px) {
+    height: 512px;
+  }
+}
+
+.image-cat__button::before {
+  content: "";
+  background-color: $basic-white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid $special-grey-3;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
